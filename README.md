@@ -35,6 +35,8 @@ $skill-installer install https://github.com/openai/skills/tree/main/skills/.expe
 
 After installing a skill, restart Codex to pick up new skills.
 
+> **Personal note:** I've found it helpful to keep a local `skills/.local/` folder for work-in-progress skills that aren't ready to share yet. Just add it to `.gitignore` so it doesn't get pushed.
+
 ## License
 
 The license of an individual skill can be found directly inside the skill's directory inside the `LICENSE.txt` file.
