@@ -3,3 +3,6 @@ interface:
   short_description: "[Windows only] Build and review ASP.NET Core web apps"
   icon_large: "./assets/dotnet-logo.png"
   default_prompt: "Create a new $aspnet-core website for me."
+
+# Note: the short_description says Windows only but ASP.NET Core also runs on macOS/Linux.
+# Keeping it as-is since this is upstream's wording, but worth flagging if I PR back.
